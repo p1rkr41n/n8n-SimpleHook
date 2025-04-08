@@ -26,7 +26,7 @@ sed -i "s|WEBHOOK_URL=.*|WEBHOOK_URL=${NGROK_URL}/|" .env  # Webhook use HTTPS b
 # Restart
 docker compose -f docker-compose.yml restart n8n # It maybe not working. Start below command.
 docker compose up -d
-echo "Any things running."
+echo "Anythings is running."
 echo "Domain webhook (HTTPS): ${NGROK_URL}"
 echo "You only can access n8n on local !!!"
 echo "If you want to access n8n on the internet. You can change filter on nginx.conf then re-compose all"
