@@ -1,4 +1,4 @@
-Step 1: Change variables in all file
+Step 1: Change variables in all file ( get ngrok free token on https://ngrok.com/)
 Step 2: Check valid installed pack: docker, jq...
 Step 3: Run setup.sh
 Step 4: Run run.sh
